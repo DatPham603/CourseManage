@@ -1,0 +1,21 @@
+server:
+  port: 8099
+spring:
+  application:
+    name: QuanLyKhoaHoc
+  datasource:
+    url: "jdbc:mysql://localhost:3306/quanlykhoahoc"
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+jwt:
+  secretKey: "yI5Sv6fB5Ie9oHSFQ+90s9uW9vugM/+VfIKEF+hUL19v0hJ8TvrHfN9YqRbQOHuJ"
+
